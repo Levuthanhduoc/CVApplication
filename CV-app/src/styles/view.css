@@ -1,0 +1,23 @@
+h3,h2 {
+    font-size: 1.5em;
+    border-bottom: solid 1px;
+}
+.cvView{
+    border: 1px solid;
+    padding: 10px;
+    text-align: left;
+    width: 500px;
+}
+.infoView>p:first-child{
+    font-size: 2em;
+}
+.practicalView>div,.expView>div{
+    display: flex;
+    gap: 100px;
+}
+.practicalInfo-box,.expInfo-box{
+    text-align: left;
+}
+.button-box{
+    text-align: center;
+}

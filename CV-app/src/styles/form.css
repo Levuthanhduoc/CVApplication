@@ -1,0 +1,62 @@
+.cvForm{
+    position: relative;
+    border: #ffffff 1px solid;
+    padding: 10px;
+    max-width: 500px;
+}
+.cvForm > p{
+    text-align: start;
+    font-size: 2em;
+}
+.info-box{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 10px;
+    border: #ffffff 1px solid;
+}
+.info-box>div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+}
+.info-box>div>input{
+    background-color: #242424;
+    border: none;
+    border-bottom: solid 1px;
+    flex: 1;
+}
+
+.edu-exp-box, .practical-exp-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.submit-button{
+    margin: 5px;
+}
+.block{
+    position: absolute;
+    background-color: rgba(255,255,255,0.25);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.save-popup{
+    position: sticky;
+    border: #ffffff solid 2px;
+    background-color: #444242;
+    max-width: 300px;
+    max-height: 100px;
+    top: 0;
+    bottom: 0;
+}
